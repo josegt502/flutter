@@ -14,6 +14,8 @@ void main (){
   print(pokemon['isAlive']);
   print(pokemon['abilities']);
   print(pokemon['sprites']);
+  print(pokemon['sprites'][2]);//imprime el valor de la llave 2 del mapa sprites que es 'ditto/back.png' el cual esta dentro de otro mapa llamado pokemon
+  print(pokemon['sprites'][1]);
   print(pokemon);
 }
 

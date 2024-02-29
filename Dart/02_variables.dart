@@ -12,7 +12,7 @@ void main() {
   errorMessage = [1,2,3,4,5,6];
   errorMessage = { 1,2,3,4,5,6 };
   errorMessage = () => true;
-  errorMessage = null;
+  errorMessage = null;//no da ningun error los dynamic es mejor utilizarlo en los parametros de las funciones o al recibir datos de una API
     
   print("""
   $pokemon
